@@ -7,6 +7,7 @@ import com.clientui.clientui.proxies.MicroserviceCommandeProxy;
 import com.clientui.clientui.proxies.MicroservicePaiementProxy;
 import com.clientui.clientui.proxies.MicroserviceProduitsProxy;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
